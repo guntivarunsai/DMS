@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title> DMS </title>
+		<link href='http://localhost/dms/UserLogin.css' rel='stylesheet'></link>
+	</head>
+	<body>
+		<table class="header" width="100%">
+			<tr>
+				<td width="100%" align="center"> <h1> Dietary Management System</h1> </td>
+			</tr>
+		</table>
+		<form action="ProcessLogin.php" method="POST">
+			<table width="100%" class="main">
+				<tr>
+					<td width="50%" >
+						<table class="LoginForm" align="center">
+							<tr>
+								<td colspan="2" align="center"> User Login </td>
+							</tr>
+							<tr>
+								<td> Username : </td>
+								<td> <input type="text" name="username" value="" class="txtbox"/> </td>
+							</tr>
+							<tr>
+								<td> Password : </td>
+								<td> <input type="password" name="password" value="" class="txtbox"/> </td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"> <input type="submit" value="Login" class="btn"/> </td>
+							</tr>
+							<table class="new" align="center" width="100%"><p>&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+							<tr>
+								<td colspan="2" align="center"> <a href="http://localhost/dms/RegisterUser.html">New User</a> </td>
+						
+								<td colspan="2" align="center"> <a href="http://localhost/dms/PasswordHelp.php"> Forgot Password </a> </td>
+							</tr>
+							</table>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

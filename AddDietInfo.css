@@ -1,0 +1,113 @@
+body
+{
+	background-image:URL('http://localhost/dms/imgs/image4.png');
+	background-attachment: fixed;
+	background-position: center;
+	font-family:monospace;
+}
+table.menubar
+{
+	background:#999966;
+	text-align:center;
+	color:white;
+	font-family:Monospace;
+}
+td.menuitem
+{
+	width:200;
+	border-top: 1px solid white;
+	border-right:1px solid white;
+}
+td.menuitem:hover
+{
+	background:white;
+	color:black;
+}
+table.header
+{
+	background:#9966FF;
+	color:white;
+	font-family:Monospace;
+
+}
+table.exp_form
+{
+	font-weight:bold;
+	font-size:15px;
+	margin-top:3%;
+	margin-left:37%;
+	background:#8585FF;
+	border: 2px solid black;
+	font-family: monospace;
+}
+input.txtbox
+{
+	height:30;
+	border:solid 1px black;
+	font-family:Monospace;
+}
+input.txtbox:focus
+{
+	border:solid 2px green;
+}
+input.btn
+{
+	background:#CEFFE6;
+	font-size:16px;
+	padding:6px;
+	width:80;
+	font-family:Monospace;
+}
+a
+{
+	color:#3ECFE1;
+	font-weight:bold;
+}
+a:hover
+{
+	color:#6BB26B;
+}
+tr.style2
+{
+	background:#A192A1;
+	border:2px solid black;
+	text-align:left;
+}
+tr.style1
+{
+	background:#B8B8E6;
+	border:2px solid black;
+	text-align:left;
+}
+table.todays_exp
+{
+	border-color: green;
+	color:black;
+	margin-left:0%;
+	border-collapse:collapse;
+	width:100%;
+	border:1px black;
+	font-family:Times New Roman;
+	padding:5px;
+	table-layout:fixed;
+	font-size:18px;
+	border-bottom:1px black;
+}
+span.today_heading
+{
+	margin-left: 0%;
+	font-size:20px;
+	font-family:consolas;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.todays_exp th
+{
+	border:2px solid black;
+	color:white;
+	background:#336699;
+}
+table.vtable
+{
+	text-align: center;
+}

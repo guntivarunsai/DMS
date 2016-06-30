@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title> DMS - Register New Account </title>
+
+		<script lang="text/javascript" src="http://localhost/dms/RegisterUser.js"></script>
+		
+		<link rel="stylesheet" href="http://localhost/dms/RegisterUser.css"></link>
+	</head>
+	<body>
+		<table class="header" width="100%" align="center">
+			<tr>
+				<td width="100%" align="center"> <h1> Dietary Management System </h1> </td>
+			</tr>
+		</table>
+		<form action="ProcessNewAccount.php" method="POST" name="regForm">
+			<table width="100%" class="main">
+				<tr>
+					<td width="50%" class="info">
+						<p class="info" id="status">&nbsp;</p>
+					</td>
+					<td>
+						<table class="registrationform">
+							<tr>
+								<td colspan="2" align="center"> Create Account </td>
+							</tr>
+							<tr>
+								<td> Full Name  </td>
+								<td> <input type="text" value="" name="name" class="txtbox" id="name" onfocus="info('name')" onblur="clear_display()" /> </td>
+							</tr>
+							<tr>
+								<td> Age  </td>
+								<td> <input type="text" value="" name="age" class="txtbox" onfocus="info('age')" onblur="clear_display()" id='age' /> </td>
+							</tr>
+							<tr>
+								<td> Preferred Username  </td>
+								<td> <input type="text" value="" name="username" class="txtbox" onfocus="info('username')" onblur="clear_display()" /> </td>
+							</tr>
+							<tr>
+								<td> Password  </td>
+								<td> <input type="password" value="" name="password" class="txtbox" onfocus="info('password')" onblur="clear_display()" /> </td>
+							</tr>
+							<tr>
+								<td> Confirm Password  </td>
+								<td> <input type="password" value="" name="repassword" class="txtbox" onfocus="info('password')" onblur="clear_display()" /> </td>
+							</tr>
+							<tr>
+								<td> Recovery Question </td>
+								<td> <input type="text" value="" name="sQuestion" class="txtbox"onfocus="info('question')" onblur="clear_display()" /> </td>
+							</tr>
+							<tr>
+								<td> Answer </td>
+								<td> <input type="text" value="" name="sAnswer" class="txtbox"onfocus="info('answer')" onblur="clear_display()" /> </td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"> <input type="submit" value="Create Account" class="btn" onclick="return validateData();" /> <input type="reset" value="clear" class="btn" /> </td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"> <a href="http://localhost/dms/UserLogin.html"> Already Have Account? </a> </td>
+							</tr>
+						</table>
+					
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

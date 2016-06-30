@@ -1,0 +1,48 @@
+body
+{
+	font-family:Monospace;
+	background:URL('http://localhost/dms/imgs/bg');
+}
+table.header
+{
+	background:#9B76E6;
+	color:white;
+	font-family:Monospace;
+}
+table.main
+{
+	margin-top:5%;
+	margin-left:3%;
+}
+table.loginForm
+{
+	background:#86D3DD;
+	color:black;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	font-size:16px;
+	padding:4px;
+}
+input.txtbox
+{
+	height:30;
+	border:solid 2px black;
+	font-family:Monospace;
+}
+input.txtbox:focus
+{
+	border:solid 2px orange;
+}
+input.btn
+{
+	background:orange;
+	font-size:14px;
+	padding:4px;
+	width:75;
+	font-family:Monospace;
+}
+a:hover
+{
+	color:orange;
+}

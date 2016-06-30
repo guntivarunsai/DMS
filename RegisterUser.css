@@ -1,0 +1,61 @@
+body
+{
+	font-family:Consolas;
+	background:URL('http://localhost/ExpenseManager/fresh_snow.png');
+}
+table.header
+{
+	background:#9966FF;
+	color:white;
+	font-family:Monospace;
+}
+table.main
+{
+	/*margin-top:1%;
+	margin-left:3%;*/
+}
+table.registrationform
+{
+	background:#A08ACC;
+	color:black;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	font-size:16px;
+	padding:4px;
+	margin-top:10%;
+	margin-right:1%;
+}
+td.info
+{
+	color:red;
+	font-size:16px;
+	vertical-align:center;
+	text-align:center;
+}
+p.info
+{
+	font-weight:bold;
+}
+input.txtbox
+{
+	height:30;
+	border:solid 2px black;
+	font-family:Monospace;
+}
+input.txtbox:focus
+{
+	border:solid 2px orange;
+}
+input.btn
+{
+	background:#999966;
+	font-size:15px;
+	padding:4px;
+	width:130;
+	font-family:Monospace;
+}
+a:hover
+{
+	color:black;
+}
