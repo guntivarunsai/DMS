@@ -1,1 +1,1 @@
-# DMS
+# Dietery Management System
